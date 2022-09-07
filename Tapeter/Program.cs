@@ -34,8 +34,8 @@ tapestryWidth= float.Parse(Console.ReadLine());
 
 float rollOfWallpaper = tapestryLength / wallHeight;
 
+// Instruktionerna på sidan missade / tapestryWidth
 float amount = wallWidth / tapestryWidth / rollOfWallpaper;
 
 Console.WriteLine("Du behöver "+ rollOfWallpaper+" tapetremsor.");
 Console.WriteLine("Du behöver " + amount + " rullar.");
-
